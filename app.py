@@ -10,7 +10,6 @@ __time__ = '2018/4/20 23:49'
 from gevent import monkey
 from gevent.pywsgi import WSGIServer
 
-# 在玩websockets，可以无视之哈，有空贴下flask websockets实现哈
 from geventwebsocket.handler import WebSocketHandler
 
 import os
